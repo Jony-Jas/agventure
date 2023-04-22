@@ -7,6 +7,7 @@ import Fertilizer from "./Pages/Fertilizer";
 import OurField from "./Pages/OurField";
 import Market from "./Pages/Market";
 import SeedInfo from "./Pages/SeedInfo";
+import FertilizerInfo from "./Pages/FertilizerInfo";
 
 const Stack = createNativeStackNavigator();
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         <Stack.Screen name="Market" component={Market} />
         <Stack.Screen name="Help" component={OurField} />
         <Stack.Screen name="SeedInfo" component={SeedInfo} />
+        <Stack.Screen name="Fertilizer Info" component={FertilizerInfo} />
       </Stack.Navigator>
     </NavigationContainer>
   );

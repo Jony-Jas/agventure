@@ -14,7 +14,7 @@ const content = [
     title: "Wheat",
     onPress: (navigation) =>
       navigation.navigate("SeedInfo", {
-        title: "Wheat",
+        title: content[0].title,
         image: content[0].image,
         info: content[0].info,
       }),
