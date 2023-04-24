@@ -25,39 +25,109 @@ const content = [
       "Soil PH": "6.5-7.5",
       "Soil Humidity": "Medium",
       "Soil Temperature": "Medium",
-      "Climate": "All",
+      Climate: "All",
       "Crop Duration": "120-150 days",
       "Crop Yield": "2-3 quintals per acre",
     },
   },
   {
     title: "Paddy",
-    onPress: (navigation) => navigation.navigate("SeedInfo"),
+    onPress: (navigation) =>
+      navigation.navigate("SeedInfo", {
+        title: content[1].title,
+        image: content[1].image,
+        info: content[1].info,
+      }),
     image:
       "https://www.world-grain.com/ext/resources/2022/10/25/Rice_AdobeStock_64819529_E.jpg?height=667&t=1666706505&width=1080",
+    info: {
+      "Soil Type": "Alluvial",
+      "Soil PH": "6.5-7.5",
+      "Soil Humidity": "Medium",
+      "Soil Temperature": "Medium",
+      Climate: "All",
+      "Crop Duration": "120-150 days",
+      "Crop Yield": "2-3 quintals per acre",
+    },
   },
   {
     title: "Maize",
-    onPress: (navigation) => navigation.navigate("SeedInfo"),
+    onPress: (navigation) =>
+      navigation.navigate("SeedInfo", {
+        title: content[2].title,
+        image: content[2].image,
+        info: content[2].info,
+      }),
     image: "https://cdn.britannica.com/36/167236-050-BF90337E/Ears-corn.jpg",
+    info: {
+      "Soil Type": "Alluvial",
+      "Soil PH": "6.5-7.5",
+      "Soil Humidity": "Medium",
+      "Soil Temperature": "Medium",
+      Climate: "All",
+      "Crop Duration": "120-150 days",
+      "Crop Yield": "2-3 quintals per acre",
+    },
   },
   {
     title: "Bajra",
-    onPress: (navigation) => navigation.navigate("SeedInfo"),
+    onPress: (navigation) =>
+      navigation.navigate("SeedInfo", {
+        title: content[3].title,
+        image: content[3].image,
+        info: content[3].info,
+      }),
     image:
       "https://cdn.shopify.com/s/files/1/0405/8215/2352/articles/BAJRA.jpg?v=1658379006",
+    info: {
+      "Soil Type": "Alluvial",
+      "Soil PH": "6.5-7.5",
+      "Soil Humidity": "Medium",
+      "Soil Temperature": "Medium",
+      Climate: "All",
+      "Crop Duration": "120-150 days",
+      "Crop Yield": "2-3 quintals per acre",
+    },
   },
   {
     title: "Ragi",
-    onPress: (navigation) => navigation.navigate("SeedInfo"),
+    onPress: (navigation) =>
+      navigation.navigate("SeedInfo", {
+        title: content[4].title,
+        image: content[4].image,
+        info: content[4].info,
+      }),
     image:
       "https://cdn.shopify.com/s/files/1/0405/8215/2352/articles/ragi1.jpg?v=1659348826",
+    info: {
+      "Soil Type": "Alluvial",
+      "Soil PH": "6.5-7.5",
+      "Soil Humidity": "Medium",
+      "Soil Temperature": "Medium",
+      Climate: "All",
+      "Crop Duration": "120-150 days",
+      "Crop Yield": "2-3 quintals per acre",
+    },
   },
   {
     title: "Barley",
-    onPress: (navigation) => navigation.navigate("SeedInfo"),
+    onPress: (navigation) =>
+      navigation.navigate("SeedInfo", {
+        title: content[5].title,
+        image: content[5].image,
+        info: content[5].info,
+      }),
     image:
       "https://bakerpedia.com/wp-content/uploads/2018/11/Barley_baking-ingredients-e1543524143272-400x400.jpg",
+    info: {
+      "Soil Type": "Alluvial",
+      "Soil PH": "6.5-7.5",
+      "Soil Humidity": "Medium",
+      "Soil Temperature": "Medium",
+      Climate: "All",
+      "Crop Duration": "120-150 days",
+      "Crop Yield": "2-3 quintals per acre",
+    },
   },
 ];
 

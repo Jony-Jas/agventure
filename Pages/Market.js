@@ -9,6 +9,13 @@ const marketList = [
   {
     title: "DEF Market",
     address: "DEF Market, New York, NY 10001",
+  },
+  {
+    title: "GHI Market",
+    address: "GHI Market, New York, NY 10001",
+  },{
+    title: "JKL Market",
+    address: "JKL Market, New York, NY 10001",
   }
 ];
 

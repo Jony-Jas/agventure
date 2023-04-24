@@ -30,25 +30,73 @@ const content = [
   },
   {
     title: "Seagrow",
-    onPress: (navigation) => navigation.navigate("Fertilizer Info"),
+    onPress: (navigation) =>
+      navigation.navigate("Fertilizer Info", {
+        title: content[1].title,
+        image: content[1].image,
+        info: content[1].info,
+      }),
     image:
       "https://www.hydra-int.com/user/products/SeaGrow/Large/SeaGrow-both%20sizes%20new.jpg",
+    info: {
+      "Name ": "Seagrow",
+      "Type ": "Nitrogen Fixing Bacteria",
+      "Plants ": "Wheat, Maize, Bajra, Ragi, Barley",
+      "Dose ": "1-2 ml/Litre",
+      "Benefits ": "Increases yield by 10-15%",
+    },
   },
   {
     title: "Urea",
-    onPress: (navigation) => navigation.navigate("SeedInfo"),
+    onPress: (navigation) =>
+      navigation.navigate("SeedInfo", {
+        title: content[2].title,
+        image: content[2].image,
+        info: content[2].info,
+      }),
     image: "https://m.media-amazon.com/images/I/61BVMXL2MML._SX466_.jpg",
+    info: {
+      "Name ": "Urea",
+      "Type ": "Nitrogenous Fertilizer",
+      "Plants ": "Wheat, Maize, Bajra, Ragi, Barley",
+      "Dose ": "1-2 ml/Litre",
+      "Benefits ": "Increases yield by 10-15%",
+    },
   },
   {
     title: "PSB",
-    onPress: (navigation) => navigation.navigate("Fertilizer Info"),
+    onPress: (navigation) =>
+      navigation.navigate("Fertilizer Info", {
+        title: content[3].title,
+        image: content[3].image,
+        info: content[3].info,
+      }),
     image:
       "https://agribegri.com/productimage/2d3484ba02145a67aa7a07cfc85655c9-11-15-21-08-49-13.JPG",
+    info: {
+      "Name ": "PSB",
+      "Type ": "Nitrogen Fixing Bacteria",
+      "Plants ": "Wheat, Maize, Bajra, Ragi, Barley",
+      "Dose ": "1-2 ml/Litre",
+      "Benefits ": "Increases yield by 10-15%",
+    },
   },
   {
     title: "Rhizobium",
-    onPress: (navigation) => navigation.navigate("Fertilizer Info"),
+    onPress: (navigation) =>
+      navigation.navigate("Fertilizer Info", {
+        title: content[4].title,
+        image: content[4].image,
+        info: content[4].info,
+      }),
     image: "https://5.imimg.com/data5/LV/GV/MY-50787234/rhizobium-500x500.jpg",
+    info: {
+      "Name ": "Rhizobium",
+      "Type ": "Nitrogen Fixing Bacteria",
+      "Plants ": "Wheat, Maize, Bajra, Ragi, Barley",
+      "Dose ": "1-2 ml/Litre",
+      "Benefits ": "Increases yield by 10-15%",
+    },
   },
   {
     title: "DAP",
